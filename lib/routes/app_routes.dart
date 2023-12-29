@@ -5,4 +5,6 @@ part of "app_pages.dart";
 abstract class Routes {
   static const SPLASH = "/";
   static const SIGNUP = "/signup";
+  static const SIGNIN = "/signin";
+  static const CHAT = "/chat";
 }

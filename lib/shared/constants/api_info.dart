@@ -3,8 +3,8 @@
 class ApiInfo {
   ApiInfo._();
   // receiveTimeout
-  static const Duration receiveTimeout = Duration(milliseconds: 15000);
+  static const Duration receiveTimeout = Duration(minutes: 1);
 
   // connectTimeout
-  static const Duration connectionTimeout = Duration(milliseconds: 15000);
+  static const Duration connectionTimeout = Duration(minutes: 1);
 }
